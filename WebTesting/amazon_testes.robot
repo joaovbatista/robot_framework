@@ -24,11 +24,3 @@ Caso de Teste 02 - Pesquisa de um Xbox Series S
     Digitar o nome de produto "Xbox Series S" no campo de pesquisa
     Clicar no botão de pesquisa
     Verificar o resultado da pesquisa, listando o produto "Xbox Series S"
-
-Caso de Teste 03 - Pesquisa de um Iphone
-    [Documentation]    Este teste verifica a busca de um produto
-    [Tags]    busca_produtos
-    Acessar a home page do site Amazon.com.br
-    Digitar o nome de produto "Iphone" no campo de pesquisa
-    Clicar no botão de pesquisa
-    Verificar o resultado da pesquisa, listando o produto "Iphone"
