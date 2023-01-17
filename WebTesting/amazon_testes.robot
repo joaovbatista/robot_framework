@@ -33,7 +33,7 @@ Caso de Teste 03 - Pesquisando um Iphone
     Clicar no botão de pesquisa
     Verificar o resultado da pesquisa, listando o produto "Iphone"
 
-Caso de Teste 03 - Pesquisando um Geladeira Samsung
+Caso de Teste 04 - Pesquisando um Geladeira Samsung
     [Documentation]    Este teste verifica a busca de um produto
     [Tags]    busca_produtos eletrodomesticos
     Acessar a home page do site Amazon.com.br
