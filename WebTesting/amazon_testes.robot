@@ -19,7 +19,7 @@ Caso de Teste 01 - Acesso ao menu "Eletrônicos"
 
 Caso de Teste 02 - Pesquisa de um Xbox Series S
     [Documentation]    Este teste verifica a busca de um produto
-    [Tags]    busca_produtos
+    [Tags]    busca_produtos eletronicos
     Acessar a home page do site Amazon.com.br
     Digitar o nome de produto "Xbox Series S" no campo de pesquisa
     Clicar no botão de pesquisa
@@ -27,9 +27,17 @@ Caso de Teste 02 - Pesquisa de um Xbox Series S
 
 Caso de Teste 03 - Pesquisando um Iphone
     [Documentation]    Este teste verifica a busca de um produto
-    [Tags]    busca_produtos
+    [Tags]    busca_produtos eletronicos
     Acessar a home page do site Amazon.com.br
     Digitar o nome de produto "Iphone" no campo de pesquisa
     Clicar no botão de pesquisa
     Verificar o resultado da pesquisa, listando o produto "Iphone"
+
+Caso de Teste 03 - Pesquisando um Geladeira Samsung
+    [Documentation]    Este teste verifica a busca de um produto
+    [Tags]    busca_produtos eletrodomesticos
+    Acessar a home page do site Amazon.com.br
+    Digitar o nome de produto "Geladeira Samsung" no campo de pesquisa
+    Clicar no botão de pesquisa
+    Verificar o resultado da pesquisa, listando o produto "Geladeira Samsung"
 
