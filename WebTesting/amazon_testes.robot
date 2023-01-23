@@ -40,4 +40,4 @@ Caso de Teste 04 - Pesquisando um Geladeira Samsung
     Digitar o nome de produto "Geladeira Samsung" no campo de pesquisa
     Clicar no botão de pesquisa
     Verificar o resultado da pesquisa, listando o produto "Geladeira Samsung"
-
+    
