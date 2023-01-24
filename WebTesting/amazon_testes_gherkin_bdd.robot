@@ -18,7 +18,7 @@ Caso de Teste 01 - Acesso ao menu "Eletrônicos"
 
 Caso de Teste 02 - Pesquisa de um Xbox Series S
     [Documentation]    Este teste verifica a busca de um produto
-    [Tags]    busca_produtos eletronicos
+    [Tags]    busca_produtos    eletronicos
     Dado que estou na home page da Amazon.com.br
     Quando pesquisar pelo produto "Xbox Series S"
     Então o título da página deve ficar "Amazon.com.br : Xbox Series S"
