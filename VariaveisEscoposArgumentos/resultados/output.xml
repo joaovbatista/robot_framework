@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.1 on win32)" generated="20230126 11:20:32.107" rpa="false" schemaversion="3">
+<suite id="s1" name="Tarefa5" source="C:\CursoUdemy\RobotFramework\VariaveisEscoposArgumentos\Tarefa5.robot">
+<test id="s1-t1" name="Mostrar email gerado" line="9">
+<kw name="Gerar um email">
+<kw name="Unir nome e sobrenome com string">
+<var>${RES}</var>
+<arg>${PESSOA.nome}</arg>
+<arg>${PESSOA.sobrenome}</arg>
+<kw name="Generate Random String" library="String">
+<var>${RANDOM_STRING}</var>
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<msg timestamp="20230126 11:20:32.128" level="INFO">${RANDOM_STRING} = r3vK4oDg</msg>
+<status status="PASS" starttime="20230126 11:20:32.127" endtime="20230126 11:20:32.128"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${RES}</var>
+<arg>${NOME}${SOBRENOME}${RANDOM_STRING}@teste.com</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230126 11:20:32.128" level="INFO">${RES} = JoãoBatistar3vK4oDg@teste.com</msg>
+<status status="PASS" starttime="20230126 11:20:32.128" endtime="20230126 11:20:32.128"/>
+</kw>
+<msg timestamp="20230126 11:20:32.128" level="INFO">${RES} = JoãoBatistar3vK4oDg@teste.com</msg>
+<status status="PASS" starttime="20230126 11:20:32.127" endtime="20230126 11:20:32.128"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${RES}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230126 11:20:32.128" level="INFO">JoãoBatistar3vK4oDg@teste.com</msg>
+<status status="PASS" starttime="20230126 11:20:32.128" endtime="20230126 11:20:32.128"/>
+</kw>
+<status status="PASS" starttime="20230126 11:20:32.127" endtime="20230126 11:20:32.128"/>
+</kw>
+<status status="PASS" starttime="20230126 11:20:32.126" endtime="20230126 11:20:32.129"/>
+</test>
+<doc>Tarefa 5 do curso de Robot Framework da Udemy</doc>
+<status status="PASS" starttime="20230126 11:20:32.108" endtime="20230126 11:20:32.129"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tarefa5">Tarefa5</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
