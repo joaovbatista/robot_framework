@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.1 on win32)" generated="20230126 12:29:48.303" rpa="false" schemaversion="3">
+<suite id="s1" name="UsandoLoops" source="C:\CursoUdemy\RobotFramework\ExemplosEstruturas\UsandoLoops.robot">
+<test id="s1-t1" name="Teste de FOR do tipo IN RANGE" line="13">
+<kw name="Usando FOR IN RANGE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${\n}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230126 12:29:48.320" endtime="20230126 12:29:48.320"/>
+</kw>
+<for flavor="IN RANGE">
+<var>${CONTADOR}</var>
+<value>0</value>
+<value>5</value>
+<iter>
+<var name="${CONTADOR}">0</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Minha posição agora é: ${CONTADOR}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230126 12:29:48.320" endtime="20230126 12:29:48.320"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Minha posição agora é: ${CONTADOR}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230126 12:29:48.321" level="INFO">Minha posição agora é: 0</msg>
+<status status="PASS" starttime="20230126 12:29:48.320" endtime="20230126 12:29:48.321"/>
+</kw>
+<status status="PASS" starttime="20230126 12:29:48.320" endtime="20230126 12:29:48.321"/>
+</iter>
+<iter>
+<var name="${CONTADOR}">1</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Minha posição agora é: ${CONTADOR}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230126 12:29:48.321" endtime="20230126 12:29:48.321"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Minha posição agora é: ${CONTADOR}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230126 12:29:48.321" level="INFO">Minha posição agora é: 1</msg>
+<status status="PASS" starttime="20230126 12:29:48.321" endtime="20230126 12:29:48.321"/>
+</kw>
+<status status="PASS" starttime="20230126 12:29:48.321" endtime="20230126 12:29:48.321"/>
+</iter>
+<iter>
+<var name="${CONTADOR}">2</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Minha posição agora é: ${CONTADOR}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230126 12:29:48.321" endtime="20230126 12:29:48.321"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Minha posição agora é: ${CONTADOR}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230126 12:29:48.322" level="INFO">Minha posição agora é: 2</msg>
+<status status="PASS" starttime="20230126 12:29:48.322" endtime="20230126 12:29:48.322"/>
+</kw>
+<status status="PASS" starttime="20230126 12:29:48.321" endtime="20230126 12:29:48.322"/>
+</iter>
+<iter>
+<var name="${CONTADOR}">3</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Minha posição agora é: ${CONTADOR}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230126 12:29:48.322" endtime="20230126 12:29:48.322"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Minha posição agora é: ${CONTADOR}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230126 12:29:48.322" level="INFO">Minha posição agora é: 3</msg>
+<status status="PASS" starttime="20230126 12:29:48.322" endtime="20230126 12:29:48.322"/>
+</kw>
+<status status="PASS" starttime="20230126 12:29:48.322" endtime="20230126 12:29:48.322"/>
+</iter>
+<iter>
+<var name="${CONTADOR}">4</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Minha posição agora é: ${CONTADOR}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230126 12:29:48.322" endtime="20230126 12:29:48.322"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Minha posição agora é: ${CONTADOR}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230126 12:29:48.323" level="INFO">Minha posição agora é: 4</msg>
+<status status="PASS" starttime="20230126 12:29:48.323" endtime="20230126 12:29:48.323"/>
+</kw>
+<status status="PASS" starttime="20230126 12:29:48.322" endtime="20230126 12:29:48.323"/>
+</iter>
+<status status="PASS" starttime="20230126 12:29:48.320" endtime="20230126 12:29:48.323"/>
+</for>
+<status status="PASS" starttime="20230126 12:29:48.319" endtime="20230126 12:29:48.323"/>
+</kw>
+<doc>Faz um loop dentro de um intervalo que você passar</doc>
+<status status="PASS" starttime="20230126 12:29:48.319" endtime="20230126 12:29:48.323"/>
+</test>
+<doc>Vamos aprender a fazer LOOPS usando o Robot Framework!!</doc>
+<status status="PASS" starttime="20230126 12:29:48.303" endtime="20230126 12:29:48.324"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="UsandoLoops">UsandoLoops</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
